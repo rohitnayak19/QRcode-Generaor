@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qr code</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./utility.css">
+    <script src="https://kit.fontawesome.com/f54945268a.js" crossorigin="anonymous"></script>
+    <script src="./app.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper bg-slate-800 h-screen flex justify-center items-center">
+        <div class="container h-auto w-80 bg-white p-2 rounded-sm">
+            <p class="font-mono text-slate-800 mb-2">QR code generator</p>
+            <input type="text" placeholder="Enter your name or URL" class="bg-gray-200 p-2 rounded-sm w-full mainInput">
+            <div class="qrImageDiv grid place-items-center my-4">
+                <img src="" class="qrimage">
+            </div>
+            <button class="bg-sky-500 text-white font-semibold p-2 w-full rounded-sm btn">Generate QR code</button>
+        </div>
+    </div>
+</body>
+</html>
